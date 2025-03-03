@@ -1,14 +1,14 @@
-import java.util.Scanner;
+    import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         //untuk mengimput data user
         Scanner input = new Scanner(System.in);
-        String adminNama = "Dian024";
-        String studentNama = "Dian";
+        String adminNama = "Admin010";
+        String studentNama = "password";
 
-        String password = "1234";
-        String nim = "024";
+        String password = "024";
+        String nim = "password";
         //untuk login user
         System.out.println("pilih login");
         System.out.println("1.Admin");
