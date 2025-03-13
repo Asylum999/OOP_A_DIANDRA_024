@@ -8,7 +8,6 @@ public class BankAccount {
         this.ownerName = oN;
         this.balance = bL;
     }
-
     void displayinfo(){
         System.out.println("Nomor Rekening: " + accountNumber);
         System.out.println("Nama Pemilik: " + ownerName);
