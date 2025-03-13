@@ -14,7 +14,6 @@ public class BankAccount {
         System.out.println("Saldo: Rp" + balance);
         System.out.print("\n");
     }
-
     void depositinfo(double ammount){
         balance += ammount;
         System.out.println(ownerName + " menyetor Rp" + ammount + ". Saldo sekarang: Rp" + balance);
