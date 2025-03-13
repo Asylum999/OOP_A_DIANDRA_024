@@ -1,3 +1,5 @@
+package Codelab.Module2;
+
 public class BankAccount {
     String accountNumber;
     String ownerName;
@@ -18,7 +20,6 @@ public class BankAccount {
         balance += ammount;
         System.out.println(ownerName + " menyetor Rp" + ammount + ". Saldo sekarang: Rp" + balance);
     }
-
     String periksa(double ammount,double balance){
         if(ammount > balance){
             return "(GAGAL, Saldo tidak mencukupi)";

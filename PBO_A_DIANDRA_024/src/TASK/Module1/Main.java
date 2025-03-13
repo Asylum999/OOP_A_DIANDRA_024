@@ -1,6 +1,7 @@
-    import java.util.Scanner;
+package Task.Module1;
+import java.util.Scanner;
 
-public class cdlab1 {
+public class Main {
     public static void main(String[] args) {
         //untuk mengimput data user
 
@@ -47,5 +48,6 @@ public class cdlab1 {
         else {
             System.out.println("pilihan tidak valid");
         }
+        input.close();
     }
-}
+}   
