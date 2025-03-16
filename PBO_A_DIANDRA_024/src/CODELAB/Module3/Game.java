@@ -28,7 +28,7 @@ class Brimstone extends GameCharacter {
     @Override
     public void attack(GameCharacter target) {
         System.out.println(getName() + " attacks " + target.getName() + " using Orbital Strike");
-        System.out.println(target.getName() + " now has 180 health points");
+        System.out.println(target.getName() + " now has 180 healths points");
         target.setHealth(target.getHealth() - 180);
         System.out.println(getName() + " attacks " + target.getName() + " using orbital strike");
         System.out.println(target.getName() + " now has 160 health points ");
