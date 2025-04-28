@@ -3,12 +3,12 @@ package Task.Module2;
 import java.util.Scanner;
 
 //admin login
-class Login {
+class AdminLogin {
     boolean authenticate(String username, String password) {
         if (username.equals("admin") && password.equals("admin123")) {
             return true;
         } else {
-            System.out.println("pqrsInvalid username or password");
+            System.out.println("Invalid username or password");
             return false;
         }
     }
@@ -25,18 +25,18 @@ class StudentLogin {
         }
     }
 }
-//main login
-public class MainLogin {
+
+public class MainLogins{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Login as (admin/student): ");
-        String choice = scanner.nextLine().toLowerCase();
+        String choice = scanner.nextLine();
         if (choice.equals("admin")) {
             System.out.print("Enter username: ");
             String username = scanner.nextLine();
             System.out.print("Enter password: ");
             String password = scanner.nextLine();
-            Login admin = new Login();
+            AdminLogin admin = new AdminLogin();
             if (admin.authenticate(username, password)) {
                 System.out.println("Login successful");
             } else {
@@ -56,5 +56,6 @@ public class MainLogin {
         } else {
             System.out.println("Invalid choice");
         }
+        scanner.close();
     }
 }

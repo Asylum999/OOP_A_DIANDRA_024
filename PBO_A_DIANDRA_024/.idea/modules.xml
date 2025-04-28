@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/src/CODELAB/CODELAB.iml" filepath="$PROJECT_DIR$/src/CODELAB/CODELAB.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/PBO_A_DIANDRA_024.iml" filepath="$PROJECT_DIR$/.idea/PBO_A_DIANDRA_024.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/TASK/TASK.iml" filepath="$PROJECT_DIR$/src/TASK/TASK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PBO_A_DIANDRA_024.iml" filepath="$PROJECT_DIR$/PBO_A_DIANDRA_024.iml" />
     </modules>
   </component>
 </project>
