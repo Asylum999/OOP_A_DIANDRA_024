@@ -5,14 +5,13 @@ import java.util.Scanner;
 
 public class loginSystem { 
     public static void main(String[] args) {
-        admin admin1 = new admin("Daisy", "123");
-        mahasiswa mahasiswa1 = new mahasiswa("Dian", "123");
+        admin admin1 = new admin("adit", "200");
+        mahasiswa mahasiswa1 = new mahasiswa("diian", "123");
         
         Scanner input = new Scanner(System.in);
         String choice;
 
-        // Perulangan untuk login
-        do {
+        do  {
             System.out.println("Pilih jenis login:");
             System.out.println("1. Admin");
             System.out.println("2. Mahasiswa");
@@ -38,7 +37,6 @@ public class loginSystem {
             }
 
         } while (!choice.equals("3"));
-
         input.close();
     }
 }
