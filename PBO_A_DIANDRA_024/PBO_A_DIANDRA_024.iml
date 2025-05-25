@@ -7,5 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="PBO_A_DIANDRA_25" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

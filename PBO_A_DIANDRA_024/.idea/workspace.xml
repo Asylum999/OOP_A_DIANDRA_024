@@ -5,14 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38f7e668-8959-4a77-85b9-155b3f5461c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CODELAB/CODELAB1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CODELAB/animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CODELAB/cdlab1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CODELAB/Module2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CODELAB/Module3/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CODELAB/Module3/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TASK/Module2/MainLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PBO_A_DIANDRA_024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PBO_A_DIANDRA_024.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODELAB/Module3/Maingame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CODELAB/Module3/Maingame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODELAB/Module5/entity/Barang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CODELAB/Module5/entity/Barang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODELAB/Module5/exception/StokTidakCukupException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CODELAB/Module5/exception/StokTidakCukupException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CODELAB/Module5/main/ManajemenStok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CODELAB/Module5/main/ManajemenStok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TASK/Module4/actions/adminActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TASK/Module4/actions/adminActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TASK/Module4/actions/mahasiswaActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TASK/Module4/actions/mahasiswaActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TASK/Module4/com/praktikum/actions/adminActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TASK/Module4/com/praktikum/actions/mahasiswaActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TASK/Module4/com/praktikum/main/loginSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TASK/Module4/com/praktikum/users/admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TASK/Module4/com/praktikum/users/mahasiswa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TASK/Module4/com/praktikum/users/userLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TASK/Module4/main/loginSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TASK/Module4/main/loginSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TASK/Module4/users/admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TASK/Module4/users/admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TASK/Module4/users/mahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TASK/Module4/users/mahasiswa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TASK/Module4/users/userLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TASK/Module4/users/userLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +42,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Asylum999&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Asylum999/OOP_A_DIANDRA_024.git&quot;,
+    &quot;accountId&quot;: &quot;7e733100-09b2-4b0c-8a1e-e325d3c4f141&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2uFoXvoDW1EkpzTR2J0ZbCer533" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -42,13 +71,24 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainAccount.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainAnimal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManajemenStok.executor&quot;: &quot;Run&quot;,
+    &quot;Application.jjjj.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/java/SEMESTER 2 JAVA/PBO_A_DIANDRA_024&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/java/SEMESTER 2 JAVA/PBO_A_DIANDRA_024&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -57,24 +97,23 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="MainAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codelab.Module1.MainAccount" />
+    <configuration name="jjjj" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="23" />
+      <option name="MAIN_CLASS_NAME" value="Codelab.Module6.jjjj" />
       <module name="PBO_A_DIANDRA_024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Codelab.Module1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" value="--module-path D:\KULIAH\SEMESTER 2\coding java\javafx-sdk-17.0.15\lib --add-modules javafx.controls" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MainAccount" />
-      </list>
-    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,7 +123,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741853727007</updated>
+      <workItem from="1746413801278" duration="119000" />
+      <workItem from="1748063229022" duration="357000" />
+      <workItem from="1748063600185" duration="4000" />
+      <workItem from="1748063619107" duration="172000" />
+      <workItem from="1748063813830" duration="1606000" />
+      <workItem from="1748068800910" duration="1032000" />
+      <workItem from="1748069859931" duration="163000" />
+      <workItem from="1748070080679" duration="16000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PBO_A_DIANDRA_024$jjjj.ic" NAME="jjjj Coverage Results" MODIFIED="1748068751082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

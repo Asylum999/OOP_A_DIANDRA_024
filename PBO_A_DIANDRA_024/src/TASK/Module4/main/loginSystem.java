@@ -1,17 +1,23 @@
+//login
 package Task.Module4.main;
-import java.util.Scanner;
+import java.util.*;
 
 import Task.Module4.users.admin;
 import Task.Module4.users.mahasiswa;
+import Task.Module4.users.userLogin;
+import Task.Module4.Model.items;
 
 public class loginSystem { 
+    public static ArrayList<userLogin> userList = new ArrayList<>();
+    public static ArrayList<items> reporteditems = new ArrayList<>();
+
     public static void main(String[] args) {
-        admin admin1 = new admin("adit", "200");
-        mahasiswa mahasiswa1 = new mahasiswa("diian", "123");
-        
+        // Inisialisasi user default
+        userList.add(new admin("adit", "200"));
+        userList.add(new mahasiswa("diian", "123"));
+
         Scanner input = new Scanner(System.in);
         String choice;
-
         do  {
             System.out.println("Pilih jenis login:");
             System.out.println("1. Admin");
@@ -20,14 +26,13 @@ public class loginSystem {
             System.out.print("Masukkan pilihan: ");
             choice = input.nextLine();
 
+            userLogin loggedInUser = null;
             switch (choice) {
                 case "1":
-                    admin1.login();
-                    admin1.displaymenu();
+                    loggedInUser = login("admin", input);
                     break;
                 case "2":
-                    mahasiswa1.login();
-                    mahasiswa1.displaymenu();
+                    loggedInUser = login("mahasiswa", input);
                     break;
                 case "3":
                     System.out.println("Program keluar");
@@ -36,8 +41,34 @@ public class loginSystem {
                     System.out.println("Pilihan tidak valid.");
                     break;
             }
+            if (loggedInUser != null) {
+                loggedInUser.displaymenu(input);
+            }
 
         } while (!choice.equals("3"));
         input.close();
+    }
+
+    public static userLogin login(String tipe, Scanner input) {
+        System.out.print("Username: ");
+        String username = input.nextLine();
+        System.out.print("Password: ");
+        String password = input.nextLine();
+        //instanceof
+        for (userLogin user : userList) { 
+             if (tipe.equals("admin") && user instanceof admin) {
+                if (user.getUserName().equals(username) && user.getUserPassw().equals(password)) {
+                    System.out.println("Login berhasil sebagai Admin!");
+                    return user;
+                }
+            } else if (tipe.equals("mahasiswa") && user instanceof mahasiswa) {
+                if (user.getUserName().equals(username) && user.getUserPassw().equals(password)) {
+                    System.out.println("Login berhasil sebagai Mahasiswa!");
+                    return user;
+                }
+            }
+        }
+        System.out.println("Username atau password salah.");
+        return null;
     }
 }

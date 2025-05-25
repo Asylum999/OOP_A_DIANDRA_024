@@ -1,8 +1,6 @@
 package main;
-
 import entity.Barang;
 import exception.StokTidakCukupException;
-
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -13,7 +11,7 @@ public class ManajemenStok {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\n===== Menu Manajemen Stok =====");
+            System.out.println("\nMenu Manajemen Stok ");
             System.out.println("1. Tambah Barang Baru");
             System.out.println("2. Tampilkan Semua Barang");
             System.out.println("3. Kurangi Stok Barang");
@@ -25,7 +23,7 @@ public class ManajemenStok {
                 opsi = scanner.nextInt();
                 scanner.nextLine();
             } catch (InputMismatchException e) {
-                System.out.println("Input harus berupa angka!");
+                System.out.println("input harus berupa angka!");
                 scanner.nextLine();
                 continue;
             }
@@ -45,31 +43,28 @@ public class ManajemenStok {
                         scanner.nextLine();
                     }
                     break;
-
                 case 2:
                     if (daftarBarang.isEmpty()) {
                         System.out.println("Stok barang kosong.");
                     } else {
-                        System.out.println("--- Daftar Barang ---");
+                        System.out.println("Daftar Barang");
                         for (int i = 0; i < daftarBarang.size(); i++) {
                             Barang b = daftarBarang.get(i);
                             System.out.println(i + ". Nama: " + b.getNama() + ", Stok: " + b.getStok());
                         }
                     }
                     break;
-
                 case 3:
                     if (daftarBarang.isEmpty()) {
                         System.out.println("Tidak ada barang untuk dikurangi.");
                         break;
                     }
 
-                    System.out.println("--- Daftar Barang ---");
+                    System.out.println("Daftar Barang");
                     for (int i = 0; i < daftarBarang.size(); i++) {
                         Barang b = daftarBarang.get(i);
                         System.out.println(i + ". " + b.getNama() + " (Stok: " + b.getStok() + ")");
                     }
-
                     try {
                         System.out.print("Masukkan nomor indeks barang: ");
                         int index = scanner.nextInt();
@@ -101,7 +96,7 @@ public class ManajemenStok {
                     return;
 
                 default:
-                    System.out.println("Opsi tidak valid.");
+                    System.out.println("Opsi yang di pilih tidak valid.");
             }
         }
     }
