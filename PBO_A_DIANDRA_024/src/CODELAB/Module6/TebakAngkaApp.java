@@ -18,13 +18,13 @@ public class TebakAngkaApp extends Application {
     @Override
     public void start(Stage primaryStage) {
         /// judul awal
-        Label judul = new Label("🎯Tebak Angka");
-        judul.setFont(Font.font("Arial", FontWeight.EXTRA_LIGHT, 25));
+        Label judul = new Label("Tebak Angka");
+        judul.setFont(Font.font("Arial", FontWeight.EXTRA_LIGHT, 20));
         judul.setTextFill(Color.BLUE);
 
         ///sub judulny
-        Label subJudul = new Label("Ayo menebak angka 1-100");
-        subJudul.setFont(Font.font("Arial", FontWeight.BOLD, 20));
+        Label subJudul = new Label("🤓Ayo menebak angka 1-100");
+        subJudul.setFont(Font.font("Times New Roman", FontWeight.BOLD, 27));
 
         /// isi
         TextField inputTebakan = new TextField();
@@ -53,29 +53,30 @@ public class TebakAngkaApp extends Application {
         /// Inisialisasi angka
         generateAngkaBaru();
 
-        /// Event tombol ditekan
+        /// tombol
         tombol.setOnAction(e -> {
-            if (tombol.getText().equals("🔁 Main Lagi Yuk!")) {
+            if (tombol.getText().equals("🔁Main Lagi Yuk!")) {
                 generateAngkaBaru();
                 jumlahPercobaan = 0;
                 labelFeedback.setText("");
                 labelPercobaan.setText("Jumlah percobaan: 0");
                 tombol.setText("Coba Tebak!");
-                inputTebakan.setStyle("-fx-background-color: #28a745; -fx-text-fill: white; -fx-font-weight: bold;");
+                inputTebakan.setStyle("-fx-background-color: white; -fx-text-fill: white; -fx-font-weight: bold;");
                 inputTebakan.clear();
+                inputTebakan.setDisable(false);  // Enable the TextField again
                 return;
             }
             try {
                 int tebakan = Integer.parseInt(inputTebakan.getText());
                 jumlahPercobaan++;
                 if (tebakan < angkaBenar) {
-                    labelFeedback.setText("🔽kekecilan!");
+                    labelFeedback.setText("🔽kekecilan wok!");
                     labelFeedback.setTextFill(Color.ORANGE);
                 } else if (tebakan > angkaBenar) {
-                    labelFeedback.setText("🔼kegedean!");
+                    labelFeedback.setText("🔼kegedean wok!");
                     labelFeedback.setTextFill(Color.ORANGE);
                 } else {
-                    labelFeedback.setText("horeee bener!");
+                    labelFeedback.setText("horeee bener congrats!");
                     labelFeedback.setTextFill(Color.GREEN);
                     tombol.setText("🔁Main Lagi Yuk!");
                     tombol.setStyle("-fx-background-color: #0078D7; -fx-text-fill: white; -fx-font-weight: bold;");
@@ -89,7 +90,7 @@ public class TebakAngkaApp extends Application {
             }
         });
 
-        //scene
+        ///scene & stage
         Scene scene = new Scene(vbox, 400, 300);
         primaryStage.setTitle("Tebak ygy");
         primaryStage.setScene(scene);

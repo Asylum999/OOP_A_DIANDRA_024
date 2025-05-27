@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Codelab1",
+            "request": "launch",
+            "mainClass": "Codelab.Module1.Codelab1",
+            "projectName": "PBO_A_DIANDRA_024_fcd1d8ad"
+        },
+        {
+            "type": "java",
+            "name": "MainAccount",
+            "request": "launch",
+            "mainClass": "Codelab.Module2.MainAccount",
+            "projectName": "PBO_A_DIANDRA_024_fcd1d8ad"
+        },
+        {
+            "type": "java",
+            "name": "MainAnimal",
+            "request": "launch",
+            "mainClass": "Codelab.Module2.MainAnimal",
+            "projectName": "PBO_A_DIANDRA_024_fcd1d8ad"
+        },
+        {
+            "type": "java",
+            "name": "Maingame",
+            "request": "launch",
+            "mainClass": "Codelab.Module3.Maingame",
+            "projectName": "PBO_A_DIANDRA_024_fcd1d8ad"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Codelab.Module4.App.Main",
+            "projectName": "PBO_A_DIANDRA_024_fcd1d8ad"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "Task.Module1.Main",
+            "projectName": "PBO_A_DIANDRA_024_fcd1d8ad"
+        },
+        {
+            "type": "java",
+            "name": "MainLogins",
+            "request": "launch",
+            "mainClass": "Task.Module2.MainLogins",
+            "projectName": "PBO_A_DIANDRA_024_fcd1d8ad"
+        },
+        {
+            "type": "java",
+            "name": "MainLoginn",
+            "request": "launch",
+            "mainClass": "Task.Module3.MainLoginn",
+            "projectName": "PBO_A_DIANDRA_024_fcd1d8ad"
+        },
+        {
+            "type": "java",
+            "name": "loginSystem",
+            "request": "launch",
+            "mainClass": "Task.Module4.main.loginSystem",
+            "projectName": "PBO_A_DIANDRA_024_fcd1d8ad"
+        },
+        {
+            "type": "java",
+            "name": "TebakAngkaApp",
+            "request": "launch",
+            "mainClass": "TebakAngkaApp",
+            "projectName": "PBO_A_DIANDRA_024_fcd1d8ad"
+        },
+        {
+            "type": "java",
+            "name": "kakaw",
+            "request": "launch",
+            "mainClass": "kakaw",
+            "projectName": "PBO_A_DIANDRA_024_fcd1d8ad"
+        },
+        {
+            "type": "java",
+            "name": "ManajemenStok",
+            "request": "launch",
+            "mainClass": "main.ManajemenStok",
+            "projectName": "PBO_A_DIANDRA_024_fcd1d8ad"
+        }
+    ]
+}
